@@ -1713,7 +1713,7 @@ th {
 
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
-  background-color: #A64B2A;
+  background-color: #F5DDE0;
 }
 
 table col[class*="col-"] {

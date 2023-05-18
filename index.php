@@ -63,4 +63,43 @@ if (isset($_COOKIE["admin"]))
         </div>
     </div>
 
+    <div class="container pt" style="margin-top:40px; margin-bottom: 300px; ">
+    <div id="searchDiv" >
+        <label for="pretraga"style="color:white ;font-weight:400px ;font-size:22px; padding:20px; background-color:#A64B2A;opacity:80%; border-radius:25%; margin-bottom:20px">Pretraga proizvoda na osnovu kategorije</label>
+        <select id="pretraga" onchange="pretraga()" class="form-control" style=" font-size:20px ;" >
+            <?php
+            $rez = $conn->query("SELECT * from kategorija");
+
+            while ($red = $rez->fetch_assoc()) {
+            ?>
+                <option 
+                value="<?php echo $red['kategorijaId'] ?>"> <?php echo $red['imeKategorije'] ?></option>
+            <?php   }
+            ?>
+        </select>
+    </div>
+
+    <div id="podaciPretraga"style="font-size:18px ; margin-top:-80px" ></div>
+    </div>
+
+
+
+    <script>
+        function pretraga() {
+            $.ajax({
+                url: "handler/pretragaProizvoda.php",
+                data: {
+                    kategorijaId: $("#pretraga").val()
+                },
+                success: function(html) {
+                    $("#podaciPretraga").html(html);
+                }
+            })
+        }
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
