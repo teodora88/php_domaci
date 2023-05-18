@@ -213,28 +213,23 @@ li {
     padding: 10px 5px;
 }
 
-.pretraga-zanra{
-
-    margin: auto;
-  width: 50%;
-  padding: 10px;
-}
 
 .prijava-form {
     width: 100%;
-    border: turquoise;
     border-radius: 5rem;
-    padding: 15%;
-    background: rgba(160, 62, 129, 0);
+    padding: 5%;
     font-weight: 700;
     color: #fff;
     cursor: pointer;
+    margin-top: 150px;
+    width: 90%;
+    background: #F5DDE0;
 }
 
 
 div.modal-content, div.container.sir-form {
-    background-image: url("../slike/slika2.jpeg");
-    background-size: 100% 100%;
+    background-image: url("../img/login-pozadina.jpg");
+    background-size: 100% 35%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
