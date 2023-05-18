@@ -45,7 +45,7 @@ html {
 
 body {
   margin: 0;
-  background-image: url("http://article.murata.com/sites/default/files/static/ja-jp/images/article/iot-changes-life-with-pets/iot-changes-life-with-pets-main.jpg") ;
+  background-image: url("../img/login-pozadina.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
