@@ -154,7 +154,7 @@ if (isset($_POST['kategorija'])) {
       <thead style="font-weight:500px; font-size:20px; color:white; background-color: #A64B2A">
         <tr>
           <th>Ime proizvoda</th>
-          <th>Nutritivna vrednost</th>
+          <th>Broj proizvoda</th>
           <th>Cena</th>
           <th>Kategorija proizvoda</th>
           <th>Obrisi proizvod</th>
