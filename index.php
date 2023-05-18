@@ -65,7 +65,7 @@ if (isset($_COOKIE["admin"]))
 
     <div class="container pt" style="margin-top:40px; margin-bottom: 300px; ">
     <div id="searchDiv" >
-        <label for="pretraga"style="color:white ;font-weight:400px ;font-size:22px; padding:20px; background-color:#A64B2A;opacity:80%; border-radius:25%; margin-bottom:20px">Pretraga proizvoda na osnovu kategorije</label>
+        <label for="pretraga"style="color:white ;font-weight:400px ;font-size:22px; padding:20px; background-color:#A64B2A;opacity:80%; border-radius:40%; margin-bottom:20px">Pretraga proizvoda na osnovu kategorije</label>
         <select id="pretraga" onchange="pretraga()" class="form-control" style=" font-size:20px ;" >
             <?php
             $rez = $conn->query("SELECT * from kategorija");
