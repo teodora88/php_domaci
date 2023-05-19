@@ -19,7 +19,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
         exit();
     }else{
         echo '<script type="text/javascript">
-               window.onload = function () { alert("Losi kredencijali, pokusajte ponovo."); } 
+               window.onload = function () { alert("Losi podaci, pokusajte ponovo."); } 
               </script>'; 
     }
 
@@ -41,7 +41,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
 
 </head>
 
-<body class="cssLogin">
+<body class="cssLogin" >
     <div class="login-form">
         <div class="main-div">
             <div class="container" style="margin-top: 40px; margin-bottom: -50px; ">
@@ -55,7 +55,7 @@ if(isset($_POST['username']) && isset($_POST['password'])){
             <form method="post" action="">
                 <br><br><br><br>
                 <br>
-                <div class="container" style="width: 70%; margin: auto; margin-left: 100px; width:450px; background-color:#F5DDE0; opacity:80%;border-radius:5%; float:left; padding:30px">
+                <div class="container" style="width: 70%; margin: auto; margin-left: 100px; width:450px; background-color:#F5DDE0; opacity:100%;border-radius:5%; float:left; padding:30px">
                     <br>
 
                     <label style="color:white; font-size:20px; font-weight:bold" for="username">Username:</label>

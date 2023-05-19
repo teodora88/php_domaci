@@ -26,16 +26,14 @@ if (isset($_POST['kategorija'])) {
 <nav class="navbar navbar-expand-lg navbar-light" id="navCont" style="height:100px; ">
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav p-lg-0 " style="margin-left: 2%; margin-top:10px;   ">
-                    <li><a id="btn-Pocetna" href="index.php" type="button" class="btn btn-success btn-block" >
+                    <li><a id="btn-Pocetna" href="index.php" type="button" class="btn btn-success btn-block">
                         Pocetna</a></li>
                     <li><a id="btn-Dodaj" type="button" class="btn btn-success btn-block"  data-toggle="modal" data-target="#my" >
                         Nov proizvod </a></li>
-                    <li><a id="btn-Prikazi" href="prikaziProizvode.php" type="button" class="btn btn-success btn-block">
+                    <li><a id="btn-Prikazi" href="prikaziProizvode.php" type="button" class="btn btn-success btn-block" >
                         Svi proizvodi</a></li>
                     <li><a id="btn-Pocetna" href="odjava.php" type="button" class="btn btn-success btn-block" >
                     Odjava</a> </li>
-                    <li> <h1 class="navbar-brand " style="color:white ; font-weight:bold; font-size:30px; margin-top:-60px; margin-left: 1100px; text-decoration:underline">
-                    Pet Center</h1></li>
                 </div>
             </div>
     </nav>
@@ -50,19 +48,19 @@ if (isset($_POST['kategorija'])) {
                 <div class="modal-body" style="align-items:center; justify-content: center;" >
                     <div class="container prijava-form">
                         <form action="#" method="post" id="dodajForm">
-                            <h3 style="color:white; text-align: center; background-color: #A64B2A; border-radius: 45%; padding: 15px; opacity: 80%; ">Dodaj proizvod:</h3>
+                            <h3 style="color:white; text-align: center; background-color: #D0637C; border-radius: 45%; padding: 15px; opacity: 100%; ">Dodaj proizvod:</h3>
                             <div class="row" >
                                 <div class="col-md-11 ">
                                     <div class="form-group">
-                                        <label style="color:#A64B2A" for="">Ime proizvoda:</label>
+                                        <label style="color:#D0637C" for="">Ime proizvoda:</label>
                                         <input type="text" style="border: 1px solid black" name="imeProizvoda" class="form-control" />
                                     </div>
                                     <div class="form-group">
-                                        <label style="color:#A64B2A"for="">Broj proizvoda:</label>
+                                        <label style="color:#D0637C"for="">Broj proizvoda:</label>
                                         <input type="text" style="border: 1px solid black" name="brojProizvoda" class="form-control" />
                                     </div>
                                     <div class="form-group">
-                                        <label style="color:#A64B2A" for="">Cena proizvoda:</label>
+                                        <label style="color:#D0637C" for="">Cena proizvoda:</label>
                                         <input type="text" style="border: 1px solid black" name="cena" class="form-control" />
                                     </div>
                                     <div class="form-group">
@@ -77,7 +75,7 @@ if (isset($_POST['kategorija'])) {
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <button id="btnDodaj" type="submit" class="btn btn-success btn-block" style="background-color: #A64B2A">
+                                        <button id="btnDodaj" type="submit" class="btn btn-success btn-block" style="background-color: #D0637C">
                                             Dodaj novi proizvod</button>
                                     </div>
                                 </div>
@@ -102,7 +100,7 @@ if (isset($_POST['kategorija'])) {
           <div class="container prijava-form">
             <form action="#" method="post" id="izmeniForma">
 
-              <h3 style="color:white; text-align: center; background-color: #A64B2A; border-radius: 45%; padding: 15px; opacity: 80%;">Izmeni proizvod: </h3>
+              <h3 style="color:white; text-align: center; background-color: #D0637C; border-radius: 45%; padding: 15px; opacity: 100%;">Izmeni proizvod: </h3>
               <div class="row" >
                 <div class="col-md-11 ">
 
@@ -112,20 +110,20 @@ if (isset($_POST['kategorija'])) {
                   </div>
 
                   <div class="form-group" style="display: none;">
-                    <label style="color:#A64B2A;" for="">kategorijaId</label>
+                    <label style="color:#D0637C;" for="">kategorijaId</label>
                     <input id="kategorijaId"  type="text" style="border: 1px solid black" name="kategorija" class="form-control" />
                   </div>
                   <div class="form-group">
-                    <label style="color:#A64B2A;" for="">Ime proizvoda</label>
+                    <label style="color:#D0637C;" for="">Ime proizvoda</label>
                     <input id="imeProizvoda" type="text" style="border: 1px solid black" name="imeProizvoda" class="form-control" />
                   </div>
                   <div class="form-group">
-                    <label style="color:#A64B2A;" for="">Broj proizvoda</label>
+                    <label style="color:#D0637C;" for="">Broj proizvoda</label>
                     <input id="brojProizvoda" type="text" style="border: 1px solid black" name="brojProizvoda" class="form-control" />
                   </div>
 
                   <div class="form-group">
-                    <button id="btnIzmeni" type="submit" class="btn btn-success btn-block" style="background-color:#A64B2A">
+                    <button id="btnIzmeni" type="submit" class="btn btn-success btn-block" style="background-color:#D0637C">
                     Izmeni proizvod</button>
                   </div>
                 </div>
@@ -149,9 +147,9 @@ if (isset($_POST['kategorija'])) {
       array_push($niz, $proizvodi);
     }
     ?>
-    <p id="p" style="color:white; font-size:35px ;padding:10px; background-color:#A64B2A; border-radius:40%; text-align:left; max-width: 400px; padding-left: 90px; opacity:80% ">Svi proizvodi:</p>
+    <p id="p" style="color:white; font-size:35px ;padding:10px; background-color:#D0637C; border-radius:40%; text-align:left; max-width: 400px; padding-left: 90px; opacity:100% ">Svi proizvodi:</p>
     <table class="table table-hover">
-      <thead style="font-weight:500px; font-size:20px; color:white; background-color: #A64B2A">
+      <thead style="font-weight:500px; font-size:20px; color:white; background-color: #D0637C">
         <tr>
           <th>Ime proizvoda</th>
           <th>Broj proizvoda</th>
@@ -161,7 +159,7 @@ if (isset($_POST['kategorija'])) {
           <th>Izmeni proizvod</th>
         </tr>
       </thead>
-      <tbody style="color:white; font-size:20px ; font-weight: bold; background-color: #D7A86E; opacity:85%">
+      <tbody style="color:white; font-size:20px ; font-weight: bold; background-color: #DD868C; opacity:100%">
         <?php
         foreach ($niz as $vrednost) {
         ?>
@@ -171,9 +169,9 @@ if (isset($_POST['kategorija'])) {
             <td data-target="brojProizvoda"><?php echo $vrednost->brojProizvoda ?> </td>
             <td data-target="cena"><?php echo $vrednost->cena ?> </td>
             <td data-target="kategorijaId"><?php echo $vrednost->kategorijaId->imeKategorije ?></td>
-            <td><button id="btnObrisi" name="btnObrisi" class="btn btn-danger" style="background-color:#8E3200 ; color:white ; font-weight:bold; padding-top:10px; font-size:17px; border: none;"
+            <td><button id="btnObrisi" name="btnObrisi" class="btn btn-danger" style="background-color:#D0637C ; color:white ; font-weight:bold; padding-top:10px; font-size:17px; border: none;"
             data-id1="<?php echo $vrednost->proizvodId ?>">Obrisi</a></td>
-            <td><button class="btn btn-info" data-toggle="modal" style="background-color:#698269 ; color:white ; font-weight:bold; padding-top:10px; font-size:17px; border:none ;"
+            <td><button class="btn btn-info" data-toggle="modal" style="background-color:#D0637C ; color:white ; font-weight:bold; padding-top:10px; font-size:17px; border:none ;"
             data-target="#my1" data-id2="<?php echo $vrednost->proizvodId ?>">Izmeni</a></td>
           </tr>
         <?php

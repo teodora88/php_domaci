@@ -26,16 +26,10 @@ a {
 }
 
 body {
-  	background-color: #ffffff;
+  	background-color: #F5DDE0;
   	font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 14px;
-    background-color: #F5DDE0;
-    background-size: contain;
-    background-repeat: repeat;
-    background-position: 0 100px;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+    font-size: 14px;    
 }
 
 #searchBar{
@@ -156,7 +150,7 @@ a:after {
     margin-top: 100px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #D7A86E;
+	background-color: #F5DDE0;
     opacity: 90%;
 }
 
@@ -205,7 +199,7 @@ bt {
 }
 
 img{
-	width: 500px;
+	width: 100%;
 }
 
 li {
@@ -228,8 +222,8 @@ li {
 
 
 div.modal-content, div.container.sir-form {
-    background-image: url("../img/login-pozadina.jpg");
-    background-size: 100% 37%;
+    background-image: url("../img/slika1.jpg");
+    background-size: 100% 40%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
 }
@@ -259,8 +253,5 @@ div.modal-content, div.container.sir-form {
 }
 
 .cssLogin {
-    margin: 0;
-  background-image: url("../img/login-pozadina.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-color: #F5DDE0;
 }

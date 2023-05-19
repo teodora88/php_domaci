@@ -45,7 +45,8 @@ html {
 
 body {
   margin: 0;
-  background-image: url("../img/login-pozadina.jpg");
+  max-width: 100%;
+  background-image: url("../img/login.jpg") ;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2486,8 +2487,8 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-success {
   color: #ffffff;
-  background-color: #7b9d70;
-  border-color: #7b9d70;
+  background-color: #D0637C;
+  border-color: #D0637C;
 }
 
 .btn-success:hover,
@@ -2496,8 +2497,8 @@ fieldset[disabled] .btn-danger.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: #47a447;
-  border-color: #7b9d70;
+  background-color: #DD868C;
+  border-color: #DD868C;
 }
 
 .btn-success:active,
