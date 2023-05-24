@@ -3,7 +3,7 @@
   $user = 'root';
   $password = '';
   $server = 'localhost';
-  $database = 'php_domaci';
+  $database = 'torte';
 
  $conn = new mysqli($server,$user,$password,$database);
 
